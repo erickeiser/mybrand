@@ -59,18 +59,39 @@
   height: 700px;
 }
 
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #top .container {
+      padding: 0 0 80px;
+    }
+    #top .info .blue-square {
+      top: -15%;
+      left: -80%;
+    }
+    #top .img .background-image {
+      height: 100vh;
+    }
+  }
+  
+  #top .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 0;
+    align-items: center;
+  }
+
 /* Phones */
 @media only screen and (max-width: 767px) {
-  #top .img {
+    #top .container {
+        grid-template-columns: 1fr 1fr;
+    }
+  
+    #top .img {
     margin-right: 5px;
   }
   #top .img .background-image {
-    background: url("https://drive.google.com/uc?id=1tUXFe8DH_I5xu8KL8ZZwKIxDHYjJR40B");
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
     height: 400px
   }
   #top .info {
@@ -85,23 +106,4 @@
   }
 }
 
-/* Tablets */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  #top .container {
-    padding: 0 0 80px;
-  }
-  #top .info .blue-square {
-    top: -15%;
-    left: -80%;
-  }
-  #top .img .background-image {
-    height: 100vh;
-  }
-}
 
-#top .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 80px 0;
-  align-items: center;
-}
