@@ -60,12 +60,18 @@
 }
 
 /* Phones */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   #top .img {
     margin-right: 5px;
   }
   #top .img .background-image {
-    height: 400px;
+    background: url("https://drive.google.com/uc?id=1tUXFe8DH_I5xu8KL8ZZwKIxDHYjJR40B");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 400px;
+    height: 400px
   }
   #top .info {
     padding: 10px;
