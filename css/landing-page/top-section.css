@@ -50,13 +50,13 @@
 }
 
 #top .img .background-image {
-  background: url("https://drive.google.com/uc?id=1tUXFe8DH_I5xu8KL8ZZwKIxDHYjJR40B");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  max-width: 500px;
-  height: 700px;
+  background: url("/img/profile.jpg");
+ background-position: top center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ max-width: 500px;
+ height: 700px;
 }
 
 /* Tablets */
