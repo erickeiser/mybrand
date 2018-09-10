@@ -1,0 +1,129 @@
+@import "css-reset.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+@import "landing-page/top-section.css";
+@import "landing-page/services.css";
+@import "landing-page/portfolio.css";
+@import "/css/landing-page/portfolio/portfolio-projects.css";
+@import "landing-page/experience.css";
+@import "landing-page/blog.css";
+@import "footer.css";
+
+/* body {
+    background: #eeeeee;
+} */
+
+.container {
+  max-width: 1150;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+  padding: 15px 20px;
+}
+
+header .logo .name {
+  background: #000;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+}
+
+header .header-menu {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header-menu a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  padding: 0 10px;
+}
+
+header .header-menu a:hover {
+  font-weight: 700;
+  color: #ff5253;
+}
+
+header .menu-btn {
+  font-weight: 700;
+  color: #ff5253;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.6rem;
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  background: #fff;
+  flex-direction: column;
+  padding: 40px 0;
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+  z-index: 10;
+  top: 0;
+  transform: translate3d(-100%, 0, 0);
+  transition: all 0.4s ease-in-out;
+  -webkit-box-shadow: 2px 0px 78px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 0px 78px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 0px 78px -15px rgba(0, 0, 0, 0.75);
+}
+
+
+.mobile-menu.active {
+  transform: translate3d(0, 0, 0);
+}
+.mobile-menu a {
+  padding: 15px 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.mobile-menu a:hover {
+  padding: 15px 0;
+  text-decoration: none;
+  background: #ff5253;
+  color: #fff;
+}
+
+/* tablets */
+@media only screen and (max-width: 960px) {
+}
+
+/* phones */
+@media only screen and (max-width: 767px) {
+  header .header-menu {
+    display: none;
+  }
+  header .menu-btn {
+    display: flex;
+  }
+  header .logo {
+    font-size: 1.3rem;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+}

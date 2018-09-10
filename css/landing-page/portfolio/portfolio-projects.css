@@ -1,0 +1,107 @@
+#portfolio-project {
+  padding: 100px 15px;
+}
+
+#portfolio-project .project-images {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+#portfolio-project .project-images .img {
+  /* width: 100%; */
+  
+  height: 450px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+}
+
+#portfolio-project h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+#portfolio-project .info .buttons {
+  padding: 20px;
+}
+
+#portfolio-project .info .buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s ease-in-out;
+}
+
+#portfolio-project .info .buttons .fas {
+color: #ff5253;
+margin-right: 10px;
+}
+
+#portfolio-project .info .buttons .fas:hover {
+  color: #000;
+  }
+
+#portfolio-project .info .buttons a:hover {
+ background: #ff5253;
+}
+
+#portfolio-project p {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: #929294;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+#portfolio-project .technologies {
+  padding: 100px 0;
+}
+
+#portfolio-project h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+}
+  
+
+#portfolio-project .technologies .icons {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+
+#portfolio-project .technologies .icons .icon img {
+  width: 100%;
+  max-width: 100px;
+}
+
+#portfolio-project .video {
+  text-align: center;
+}
+
+/* Tablets */
+@media only screen and (max-width: 960px) {
+  
+}
+
+/* phones */
+
+@media only screen and (max-width: 767px) {
+
+}
+  
