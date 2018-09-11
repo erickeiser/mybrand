@@ -137,6 +137,22 @@
   line-height: 1.5;
 }
 
+#experience-section .experience-container .info .info-box  ul li {
+  color: #090916;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  display: block;
+  line-height: 1.5;
+}
+
+#experience-section .experience-container .info .info-box h5.underline {
+  font-weight: 600;
+  border-bottom: 1px solid #b2b2b4;
+  width: 20%;
+}
+
 /* tablets */
 @media only screen and (max-width: 960px) {
   #experience-section .large-title {
