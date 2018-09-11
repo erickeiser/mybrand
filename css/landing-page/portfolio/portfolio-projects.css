@@ -10,9 +10,9 @@
 #portfolio-project .project-images .img {
   width: 100%;
   height: 450px;
-  background-repeat: no-repeat !important;
   background-position: center center !important;
-  background-attachment: fixed !important;
+  /* background-repeat: no-repeat !important;
+  background-attachment: fixed !important; */
 }
 
 #portfolio-project h1 {
@@ -97,4 +97,5 @@
 /* phones */
 
 @media only screen and (max-width: 767px) {
+ 
 }
