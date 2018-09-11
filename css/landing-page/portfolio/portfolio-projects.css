@@ -11,8 +11,8 @@
   width: 100%;
   height: 450px;
   background-position: center center !important;
-  /* background-repeat: no-repeat !important;
-  background-attachment: fixed !important; */
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
 
 #portfolio-project h1 {
