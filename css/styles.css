@@ -108,22 +108,13 @@ header .menu-btn {
   color: #fff;
 }
 
-/* tablets */
+/* Tablets */
 @media only screen and (max-width: 960px) {
+  .container {width: 100%}
 }
 
-/* phones */
+/* Phones */
 @media only screen and (max-width: 767px) {
-  header .header-menu {
-    display: none;
-  }
-  header .menu-btn {
-    display: flex;
-  }
-  header .logo {
-    font-size: 1.3rem;
-  }
-  .mobile-menu {
-    display: flex;
-  }
+
 }
+
