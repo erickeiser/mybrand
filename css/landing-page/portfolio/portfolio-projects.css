@@ -97,5 +97,11 @@
 /* phones */
 
 @media only screen and (max-width: 767px) {
- 
+  #portfolio-project .project-images .img {
+    width: 100%;
+    height: 450px;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+  }
 }
